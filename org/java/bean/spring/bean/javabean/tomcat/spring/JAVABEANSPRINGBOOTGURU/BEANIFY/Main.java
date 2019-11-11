@@ -6,7 +6,7 @@ class() { :;}
 void() { :; }
 
 @Bean
-class JavaBeanifyFactoryAdapterJavaSpringFactory extends java.io.Serializable
+class JavaBeanifyFactoryAdapterJavaSpringFactory implements java.io.Serializable
 {
     @Bean
     replace_all() { # extension, pattern, replacement
