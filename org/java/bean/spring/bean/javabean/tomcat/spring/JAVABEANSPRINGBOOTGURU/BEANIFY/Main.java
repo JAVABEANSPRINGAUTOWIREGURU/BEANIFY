@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Make script itself JavaBeans compliant
+# Make script itself Java🅱eans compliant
 @Bean() { :;}
 class() { :;}
 void() { :; }
