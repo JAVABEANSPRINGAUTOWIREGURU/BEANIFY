@@ -25,7 +25,7 @@ class JavaBeanifyFactoryAdapterJavaSpringFactory implements java.io.Serializable
 
         cd "$1"
 
-        replace_all java '^(\s*)(public|protected|private)' '\1@Beans\n\1\2'
+        replace_all java '^(\s*)(public|protected|private)' '\1@Bean\n\1\2'
 
         move_all js java
         move_all json xml
